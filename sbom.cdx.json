@@ -1,0 +1,46 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:22ccefc1-d0d7-581e-a4d3-1e563234382a",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T09:00:24Z",
+  "component": {
+   "type": "application",
+   "name": "VAPR",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/VAPR@83b357604d34",
+   "purl": "pkg:generic/anticloud/VAPR@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
